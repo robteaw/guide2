@@ -11,25 +11,35 @@
     <nav>
         <div class="container">
             <h2>Guide</h2>
-            <ul>
-                <a href="index.html"><li>HTML</li></a>
-                <a href="css.html"><li>CSS</li></a>
-                <a href="javascript.html"><li>JavaScript</li></a>
+            <div class="menu">
+                <a href="index.html" class="is-active">HTML</a>
+                <a href="css.html">CSS</a>
+                <a href="javascript.html">JavaScript</a>
                 <!-- <li>React</li>
                 <li>Vue</li> -->
-            </ul>
+            </div>
+
+            <button class="hamburger is-active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </nav>
-    <h1>HTML</h1>
-    <h2>HTML vs HTML 5</h2>
-    <p>DOM - document object model</p>
-    <ul>
-        <li>all HTML elements are objects</li>
-    </ul>
-    <br>
-    <!-- <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-        Name: <input type="text" name="fname">
-        <input type="submit" value="Submit">
-    </form> -->
+    <div class="info">
+        <h1>HTML</h1>
+        <h2>HTML vs HTML 5</h2>
+        <p>DOM - document object model</p>
+        <ul>
+            <li>all HTML elements are objects</li>
+        </ul>
+        <br>
+        <!-- <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+            Name: <input type="text" name="fname">
+            <input type="submit" value="Submit">
+        </form> -->
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
