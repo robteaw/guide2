@@ -9,18 +9,29 @@
 </head>
 <body>
     <nav>
-        <ul>
-            <a href="index.html"><li>HTML</li></a>
-            <a href="css.html"><li>CSS</li></a>
-            <a href="javascript.html"><li>JavaScript</li></a>
-            <!-- <li>React</li>
-            <li>Vue</li> -->
-        </ul>
+        <div class="container">
+            <h2>Guide</h2>
+            <div class="menu">
+                <a href="index.html" class="is-active">HTML</a>
+                <a href="css.html">CSS</a>
+                <a href="javascript.html">JavaScript</a>
+                <!-- <li>React</li>
+                <li>Vue</li> -->
+            </div>
+
+            <button class="hamburger is-active">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
     </nav>
-    <h1>CSS</h1>
-    <p>Selector - selects all HTML elements</p>
-    <ul>
-      <li>ex. class (.), id (#), div</li>
-    </ul>
+    <div class="info">
+        <h1>CSS</h1>
+        <p>Selector - selects all HTML elements</p>
+        <ul>
+          <li>ex. class (.), id (#), div</li>
+        </ul>
+    </div>
 </body>
 </html>
