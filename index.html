@@ -17,8 +17,9 @@
                 <a href="css.html">CSS</a>
                 <a href="javascript.html">JavaScript</a>
                 <a href="">React</a>
-                <a href="">Vue</a>
+                <a href="">Github</a>
             </div>
+            <img src="images/sun.png" alt="" class="bgChange">
 
             <button class="hamburger is-active">
                 <span></span>
@@ -30,20 +31,96 @@
     <div class="info">
         <h1>HTML</h1>
         <h2>HTML vs HTML 5</h2>
-        <p>DOM - document object model</p>
+
+        <table>
+            <tr>
+                <th>Properties</th>
+                <th>HTML</th>
+                <th>HTML 5</th>
+            </tr>
+            <tr>
+                <td>Mobile friendliness</td>
+                <td>Less mobile friendly</td>
+                <td>Mobile friendly</td>
+            </tr>
+            <tr>
+                <td>Drag and drop</td>
+                <td>Do not support</td>
+                <td>Supports</td>
+            </tr>
+            <tr>
+                <td>Media support</td>
+                <td>Do not support</td>
+                <td>JavaScript runs directly on browser</td>
+            </tr>
+            <tr>
+                <td>JavaScript support</td>
+                <td>Cannot run JavaScript in HTML</td>
+                <td>Support JavaScript in background</td>
+            </tr>
+            <tr>
+                <td>Elements</td>
+                <td>No elements like nav or header</td>
+                <td>Includes nav, header and footer</td>
+            </tr>
+            <tr>
+                <td>Memory storage</td>
+                <td>Cookies are used to store temporary data</td>
+                <td>Temporary data is stored in the database</td>
+            </tr>
+        </table>
+
+        <h3>Document Object Model (DOM)</h3>
         <ul>
             <li>all HTML elements are objects</li>
         </ul>
-        <br>
-        <b>Shortcut: Auto-populate html structure</b>
-        <p>Type <b>!</b> then press <b>tab</b></p>
-        <img src="images/html_shortcut.png" alt="" class="img1">
-        <!-- <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        
+        <h2>Form</h2>
+              <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
             Name: <input type="text" name="fname">
             <input type="submit" value="Submit">
-        </form> -->
+        </form>
+
+        <h2>Shortcuts</h2>
+        <h3>Auto-populate html structure</h3>
+        <p>Type <b>!</b> then press <b>tab</b> will display like below.</p>
+        <img src="images/shortcut_html.png" alt="" class="img1">
+
+        <h3>Create multiple elements</h3>
+        <p>Type <b>p*3</b> then press <b>tab</b> will create 3 rows of paragraphs.</p>
+        <img src="images/shortcut_p.png" alt="" class="img2">
+
+        <h3>Create class and id for element</h3>
+        <p>Type <b>.example#example</b> then press <b>tab</b> will create a div with class and id.</p>
+        <img src="images/shortcut_class.png" alt="" class="img3">
+
+        <h2>Center Div</h2>
+        <h3>Using Grid</h3>
+        <p>.grid {</p>
+        <p class="indent">display: grid;</p>
+        <p class="indent">place-items: center;</p>
+        <p>}</p>
+
+        <h3>Using Flex</h3>
+        <p>.flex {</p>
+        <p class="indent">display: flex;</p>
+        <p class="indent">align-items: center;</p>
+        <p class="indent">justify-content: center;</p>
+        <p>}</p>
+
+        <h3>Using without Grid or Flex</h3>
+        <p>.classic {</p>
+        <p class="indent">position: absolute;</p>
+        <p class="indent">top: 50%;</p>
+        <p class="indent">left: 50%;</p>
+        <p class="indent">transform: translate(-50%, -50%);</p>
+        <p>}</p>
     </div>
 
     <script src="main.js"></script>
 </body>
 </html>
+
+
+
+<div class="example" id="example"></div>
