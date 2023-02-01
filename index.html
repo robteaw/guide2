@@ -76,8 +76,13 @@
         </ul>
         
         <h2>Form</h2>
-              <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
-            Name: <input type="text" name="fname">
+            <form name="myForm" action="/action_page.php" onsubmit="" method="post">
+                <div><input type="text" name="fname" placeholder="First Name" class="form-element" required></div>
+                <div><input type="text" name="lname" placeholder="Last Name" class="form-element" required></div>
+                <div><input type="email" name="email" placeholder="Email" class="form-element" required></div>
+                <div><input type="text" name="phone" placeholder="Phone" class="form-element"></div>
+                <textarea name="message" id="" cols="30" rows="10" placeholder="How can I help you?" class="form-element"
+            ></textarea>
             <input type="submit" value="Submit">
         </form>
 
@@ -120,7 +125,3 @@
     <script src="main.js"></script>
 </body>
 </html>
-
-
-
-<div class="example" id="example"></div>

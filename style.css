@@ -5,6 +5,9 @@
     --linkHover: #9bebff;
     --h2Color: #1E90FF;
     --table: #000;
+    --btnColor: #4B0082;
+    --btnHover: #fff;
+    --inputColor: #f3f3f3;
 }
 * {
     box-sizing: border-box;
@@ -14,7 +17,7 @@
 }
 h2 {
     color: var(--h2Color);
-    margin: 1rem 0;
+    margin: 2rem 0 1rem 0;
 }
 h3 {
     font-size: 1rem;
@@ -114,6 +117,9 @@ li {
 .info img {
     margin: 1rem 0;
 }
+.icon {
+    height: 1.5rem;
+}
 .img1 {
     height: 13rem;
 }
@@ -150,6 +156,69 @@ tr, td {
 td:first-child {
     background-color: var(--linkHover);
 }
+/* Form */
+form {
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+.form-element {
+    width: 100%;
+    appearance: none;
+    outline: none;
+    border: none;
+    display: block;
+    grid-column: 1 / -1;
+    border-radius: 8px;
+    padding: 12px 16px;
+    transition: 0.4s;
+}
+input {
+    background-color: var(--inputColor);
+    width: 100%;
+    margin: 0.5rem 0;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+}
+input[type="submit"] {
+    color: var(--btnHover);
+    background-color: var(--btnColor);
+    font-size: 1rem;
+    font-weight: bold;
+    width: 8rem;
+    margin-top: 0.5rem;
+    padding: 0.7rem;
+    border: 2px solid transparent;
+    border-radius: 5rem;
+    cursor: pointer;
+    transition: 0.4s;
+}
+input[type="submit"]:hover {
+    color: var(--btnColor);
+    background-color: var(--btnHover);
+    border: 2px solid var(--btnColor);
+}
+textarea {
+    background-color: var(--inputColor);
+    min-height: 100px;
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    resize: vertical;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+input:focus {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+textarea:focus {
+    background-color: #fff;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
 
 /* Mobile view */
 @media(min-width: 850px) {
@@ -165,7 +234,10 @@ td:first-child {
 }
 
 @media(max-width: 750px) {
-.img1 {
-    height: 10rem;
+    .img1 {
+        height: 10rem;
+    }
+    form {
+        grid-template-columns: 1fr;
     }
 }
