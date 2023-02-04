@@ -26,7 +26,7 @@ h2 {
 h3 {
     font-size: 1rem;
     font-weight: bold;
-    margin: 1rem 0 0.5rem 0;
+    margin-top: 2rem;
 }
 /* Navbar */
 nav {
@@ -228,6 +228,9 @@ ul {
 }
 li {
     margin: 1rem 1rem;
+}
+p {
+    line-height: 2rem;
 }
 
 /* Mobile view */
