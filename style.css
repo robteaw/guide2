@@ -15,9 +15,13 @@
     padding: 0;
     font-family: 'Fira sans', sans-serif;
 }
+h1 {
+    margin: 2rem 0;
+}
 h2 {
     color: var(--h2Color);
-    margin: 2rem 0 1rem 0;
+    font-size: 1.3rem;
+    margin: 3rem 0 1rem 0;
 }
 h3 {
     font-size: 1rem;
@@ -186,11 +190,11 @@ input {
 input[type="submit"] {
     color: var(--btnHover);
     background-color: var(--btnColor);
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: bold;
-    width: 8rem;
+    width: 7rem;
     margin-top: 0.5rem;
-    padding: 0.7rem;
+    padding: 0.5rem;
     border: 2px solid transparent;
     border-radius: 5rem;
     cursor: pointer;
@@ -218,6 +222,12 @@ input:focus {
 textarea:focus {
     background-color: #fff;
     box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.2);
+}
+ul {
+    margin-bottom: 2rem;
+}
+li {
+    margin: 1rem 1rem;
 }
 
 /* Mobile view */
