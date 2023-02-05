@@ -8,7 +8,8 @@
     --btnColor: #4B0082;
     --btnHover: #fff;
     --inputColor: #f3f3f3;
-    --spanColor: #e4f1fe;
+    --codeColor: #e4f1fe;
+    --spanColor: #aaa;
 }
 * {
     box-sizing: border-box;
@@ -100,7 +101,6 @@ nav {
     color: #fff;
     margin: 0 auto;
     text-decoration: none;
-    transition: 0.4s;
     padding: 8px 26px;
     border-radius: 99px;
 }
@@ -234,10 +234,14 @@ p {
     line-height: 2rem;
 }
 .code_box {
-    background-color: var(--spanColor);
+    background-color: var(--codeColor);
     width: 20rem;
     margin-top: 0.5rem;
     padding: 1rem;
+}
+span {
+    color: var(--spanColor);
+    margin-left: 1rem;
 }
 
 /* Mobile view */
