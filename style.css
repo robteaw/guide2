@@ -244,6 +244,18 @@ span {
     margin-left: 1rem;
 }
 
+/* Success Page */
+.success_page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.success_page img {
+    height: 15rem;
+}
+
 /* Mobile view */
 @media(min-width: 850px) {
     .hamburger {
