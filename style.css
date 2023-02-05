@@ -8,6 +8,7 @@
     --btnColor: #4B0082;
     --btnHover: #fff;
     --inputColor: #f3f3f3;
+    --spanColor: #e4f1fe;
 }
 * {
     box-sizing: border-box;
@@ -231,6 +232,12 @@ li {
 }
 p {
     line-height: 2rem;
+}
+.code_box {
+    background-color: var(--spanColor);
+    width: 20rem;
+    margin-top: 0.5rem;
+    padding: 1rem;
 }
 
 /* Mobile view */
