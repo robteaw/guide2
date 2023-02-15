@@ -140,7 +140,7 @@ li {
     cursor: pointer;
 }
 .indent {
-    margin-left: 1rem;
+    text-indent: 1rem;
 }
 /* Table */
 table {
@@ -164,11 +164,13 @@ td:first-child {
 /* Form */
 form {
     max-width: 800px;
+    margin-top: 1.5rem;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 16px;
     align-items: center;
     justify-content: center;
+    border-radius: 0.5rem;
 }
 .form-element {
     width: 100%;
@@ -243,6 +245,17 @@ span {
     color: var(--spanColor);
     margin-left: 1rem;
 }
+.img4 {
+    height: 23rem;
+}
+.img5 {
+    height: 23rem;
+}
+
+/* JavaScript Page */
+#img_click {
+    cursor: pointer;
+}
 
 /* Success Page */
 .success_page {
@@ -272,6 +285,9 @@ span {
 @media(max-width: 750px) {
     .img1 {
         height: 10rem;
+    }
+    .img4 {
+        height: 16rem;
     }
     form {
         grid-template-columns: 1fr;
