@@ -251,6 +251,23 @@ span {
 .img5 {
     height: 23rem;
 }
+button {
+    color: var(--btnHover);
+    background-color: var(--btnColor);
+    height: 2rem;
+    width: 4.5rem;
+    font-weight: bold;
+    border: 2px solid transparent;
+    cursor: pointer;
+}
+button:hover {
+    color: var(--btnColor);
+    background-color: var(--btnHover);
+    border: 2px solid var(--btnColor);
+}
+.btn_change {
+    margin-bottom: 2rem;
+}
 
 /* JavaScript Page */
 #img_click {

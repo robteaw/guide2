@@ -59,9 +59,20 @@
     <p>reference - object, function, array</p>
 
     <h2>Onclick</h2>
-      <img onclick="Random()" id="img_click" src="images/html-5.png" alt="">
+      <p>Change on individual button click</p>
+      <img src="images/html-5.png" id="img_click" alt="">
+      <div class="btn_change">
+        <button onclick="imgChange('./images/html-5.png')">HTML</button>
+        <button onclick="imgChange('./images/css-3.png')">CSS</button>
+        <button onclick="imgChange('./images/js.png')">JavaScript</button>
+        <button onclick="imgChange('./images/react.png')">React</button>
+      </div>
 
-
+      <p>Change randomly on image click</p>
+      <img src="images/html-5.png" id="img_random" alt="">
+      <div class="btn_change">
+        <button onclick="randomImg()">Random</button>
+      </div>
     <h2>Fetch</h2>
 
 

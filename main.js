@@ -6,10 +6,19 @@ hamburger.addEventListener("click", function () {
 });
 
 // JavaScript Page
-const codeImgs = ["images/html-5.png", "images/css-3.png", "images/js.png"];
+function imgChange(file) {
+  let img = document.querySelector("#img_click");
+  img.setAttribute("src", file);
+}
 
-function Random() {
-  let num = Math.floor(Math.random() * 3);
-  document.getElementById("img_click").innerHTML =
-    '<img src=" + codeImgs[num]">';
+const imgArray = [
+  "./images/html-5.png",
+  "./images/css-3.png",
+  "./images/js.png",
+  "./images/react.png",
+];
+
+function randomImg() {
+  let num = Math.floor(Math.random() * imgArray.length);
+  img_random.src = randomImg(num);
 }
