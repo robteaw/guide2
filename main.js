@@ -11,14 +11,9 @@ function imgChange(file) {
   img.setAttribute("src", file);
 }
 
-const imgArray = [
-  "./images/html-5.png",
-  "./images/css-3.png",
-  "./images/js.png",
-  "./images/react.png",
-];
+const imgArray = ["./images/heads.png", "./images/tails.png"];
 
 function randomImg() {
   let num = Math.floor(Math.random() * imgArray.length);
-  img_random.src = randomImg(num);
+  document.getElementById("img_random").src = imgArray[num];
 }
