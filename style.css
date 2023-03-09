@@ -237,7 +237,7 @@ p {
 }
 .code_box {
     background-color: var(--codeColor);
-    width: 20rem;
+    width: 25rem;
     margin-top: 0.5rem;
     padding: 1rem;
 }
