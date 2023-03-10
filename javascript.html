@@ -73,7 +73,8 @@
       <div class="btn_change">
         <button onclick="randomImg()">Flip</button>
       </div>
-      <h2>Fetch</h2>
+
+    <h2>Fetch</h2>
       <p>Fetch uses promises. It uses async/await.</p>
       <p>AJAX uses callbacks.</p>
       
@@ -84,12 +85,19 @@
       <p>const newArray = array.map((number)) => {</p>
       <p class="indent">return number * 2;</p>
       <p>}</p>
-      <p>console.log(array); <span>// [ 1, 5, 6, 4, 23 ]</span></p>
-      <p>console.log(newArray); <span>// [ 2, 10, 12, 8, 46 ]</span></p>
+      <p>console.log(array); <span>[1, 5, 6, 4, 23]</span></p>
+      <p>console.log(newArray); <span>[2, 10, 12, 8, 46]</span></p>
     </div>
 
     <h2>Filter</h2>
-
+    <div class="code_box">
+      <p>const array = [1, 5, 6, 4, 23]</p>
+      <p>const newArray = array.filter((number)) => {</p>
+      <p class="indent">return number < 5;</p>
+      <p>}</p>
+      <p>console.log(array); <span>[1, 5, 6, 4, 23]</span></p>
+      <p>console.log(newArray); <span>[1, 4]</span></p>
+    </div>
 
     <h2>Node</h2>
     <p>Node.js allows you to run JavaScript on the server.</p>
