@@ -5,6 +5,16 @@ hamburger.addEventListener("click", function () {
   this.classList.toggle("is-active");
 });
 
+// Background Change
+function bgChange() {
+  let displayImg = document.getElementById("bgChange");
+  if (displayImg.src.match("images/sun.png")) {
+    displayImg.src = "images/moon.png";
+  } else {
+    displayImg.src = "images/sun.png";
+  }
+}
+
 // JavaScript Page
 // Onclick Images
 function imgChange(file) {
