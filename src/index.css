@@ -273,6 +273,11 @@ button:hover {
   margin-bottom: 2rem;
 }
 
+/* Css Page */
+.info img {
+  height: 8rem;
+}
+
 /* JavaScript Page */
 #img_random {
   height: 5.5rem;

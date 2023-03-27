@@ -78,6 +78,7 @@ export default function Home() {
 
       <Center />
       
+      <script src="main.js"></script>
       </div>
     </>
   )
