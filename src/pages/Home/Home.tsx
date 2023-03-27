@@ -1,6 +1,7 @@
 import React from 'react'
 import Table from './Table';
 import Form from './Form';
+import Center from './Center';
 
 export default function Home() {
   return (
@@ -57,7 +58,7 @@ export default function Home() {
         Flex is designed for one-dimensional layout. It will display the
         contents in a row.
       </p>
-      {/* <div className="code_box">
+      <div className="code_box">
         <p>display: flex;</p>
         <p>flex-direction: row; <span>column</span></p>
         <p>flex-wrap: wrap; <span>nowrap</span></p>
@@ -69,38 +70,17 @@ export default function Home() {
         contents based on how the columns and rows are divided.
       </p>
       <div className="code_box">
+        <code>
         <p>display: grid;</p>
         <p>grid-template-columns: repeat(3, 1fr);</p>
+        </code>
       </div>
 
-      <h2>Center Div</h2>
-      <h3>Using Grid</h3>
-      <div className="code_box">
-        <p>.grid {</p>
-        <p className="indent">display: grid;</p>
-        <p className="indent">place-items: center;</p>
-        <p>}</p>
+      <Center />
+      
       </div>
-
-      <h3>Using Flex</h3>
-      <div className="code_box">
-        <p>.flex {</p>
-        <p className="indent">display: flex;</p>
-        <p className="indent">align-items: center;</p>
-        <p className="indent">justify-content: center;</p>
-        <p>}</p>
-      </div>
-
-      <h3>Using without Grid or Flex</h3>
-      <div className="code_box">
-        <p>.classic {</p>
-        <p className="indent">position: absolute;</p>
-        <p className="indent">top: 50%;</p>
-        <p className="indent">left: 50%;</p>
-        <p className="indent">transform: translate(-50%, -50%);</p>
-        <p>}</p> */}
-      {/* </div> */}
-    </div>
     </>
   )
 }
+
+

@@ -252,6 +252,9 @@ span {
 .img5 {
   height: 23rem;
 }
+.codeImg img {
+  height: 8rem;
+}
 button {
   color: var(--btnHover);
   background-color: var(--btnColor);

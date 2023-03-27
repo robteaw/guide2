@@ -11,10 +11,12 @@ import Javascript from './pages/Javascript/Javascript';
 import React1 from './pages/React/React1';
 import Git from './pages/GIt/Git';
 import Error from './pages/Error';
+// import Navbar from './components/Navbar';
 
-function App() {
+export default function App() {
   return (
     <Router>
+      {/* <Navbar /> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/css" element={<Css />} />
@@ -27,5 +29,3 @@ function App() {
     </Router>
   );
 }
-
-export default App;
