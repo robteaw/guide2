@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
   return;
   <>
+    <h3>Navbar</h3>
     {/* <nav>
         <div className="container">
             <Link to="index.html"><img src="./images/logo.png" alt="" className="logo" /></Link>

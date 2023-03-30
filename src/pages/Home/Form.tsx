@@ -13,7 +13,7 @@ export default function Form() {
       <img src="images/code_form.png" alt="" className="img4" />
       <form
         name="contact"
-        action="/success/"
+        action="/pages/success/"
         // onsubmit="submit"
         method="POST"
         data-netlify="true"

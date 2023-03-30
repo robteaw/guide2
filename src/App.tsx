@@ -11,7 +11,7 @@ import Javascript from './pages/Javascript/Javascript';
 import React1 from './pages/React/React1';
 import Git from './pages/GIt/Git';
 import Error from './pages/Error';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 
 export default function App() {
   return (
