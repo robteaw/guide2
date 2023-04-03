@@ -15,7 +15,7 @@ export default function Navbar() {
                 <Link to="/git">Github</Link>
             </div>
             {/* <img onClick={bgChange} src="images/sun.png" alt="" id="bgChange" /> */}
-            <img src="./images/sun.png" alt="" id="bgChange" />
+            <img src="./images/moon.png" alt="" id="bgChange" />
 
             <button className="hamburger is-active">
                 <span></span>
