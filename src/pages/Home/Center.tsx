@@ -1,4 +1,3 @@
-import React from 'react'
 // images
 import grid from "../../images/code_grid.png"
 import flex from "../../images/code_flex.png";

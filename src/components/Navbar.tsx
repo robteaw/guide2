@@ -1,12 +1,14 @@
-import React from "react";
 import { Link } from "react-router-dom";
+// imaages
+import logo from "../images/logo.png";
+import sun from "../images/sun.png";
 
 export default function Navbar() {
   return (
   <>
     <nav>
         <div className="container">
-            <Link to="index.html"><img src="./images/logo.png" alt="" className="logo" /></Link>
+            <Link to="/"><img src={logo} alt="" className="logo" /></Link>
             <div className="menu">
                 <Link to="/" className="is-active">HTML</Link>
                 <Link to="/css">CSS</Link>
@@ -14,8 +16,8 @@ export default function Navbar() {
                 <Link to="/react">React</Link>
                 <Link to="/git">Github</Link>
             </div>
-            {/* <img onClick={bgChange} src="images/sun.png" alt="" id="bgChange" /> */}
-            <img src="./images/moon.png" alt="" id="bgChange" />
+            <img src={sun} alt="sun" id="bgChange" />
+            {/* onClick={bgChange}  */}
 
             <button className="hamburger is-active">
                 <span></span>

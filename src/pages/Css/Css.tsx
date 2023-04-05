@@ -1,4 +1,3 @@
-import React from 'react'
 import css from "../../images/code_css.png";
 
 export default function Css() {
