@@ -1,6 +1,9 @@
 import Table from './Table';
 import Form from './Form';
 import Center from './Center';
+// images
+import flex from "../../images/flex.png";
+import grid from "../../images/grid.png";
 
 export default function Home() {
   return (
@@ -57,23 +60,14 @@ export default function Home() {
         Flex is designed for one-dimensional layout. It will display the
         contents in a row.
       </p>
-      <div className="code_box">
-        <p>display: flex;</p>
-        <p>flex-direction: row; <span>column</span></p>
-        <p>flex-wrap: wrap; <span>nowrap</span></p>
-      </div>
+      <img src={flex} alt="" />
 
       <h2>Grid</h2>
       <p>
         Grid is designed for two-dimensional layout. It will display the
         contents based on how the columns and rows are divided.
       </p>
-      <div className="code_box">
-        <code>
-        <p>display: grid;</p>
-        <p>grid-template-columns: repeat(3, 1fr);</p>
-        </code>
-      </div>
+      <img src={grid} alt="" />
 
       <Center />
       

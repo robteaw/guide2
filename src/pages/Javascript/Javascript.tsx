@@ -1,7 +1,13 @@
+// images
+import html5 from "../../images/html-5.png";
+import heads from "../../images/heads.png";
+import filter from "../../images/code_filter.png";
+import map from "../../images/code_map.png";
+
 export default function Javascript() {
   return (
     <>
-     <div className="info">
+    <div className="info">
     <h1>JavaScript</h1>
     <p>an <u>interpreted</u> language which means it is not directly executed but read and executed by another program</p>
     <ul>
@@ -29,46 +35,32 @@ export default function Javascript() {
     <p>value - number, boolean, string, undefined, null</p>
     <p>reference - object, function, array</p>
 
-    {/* <h2>Onclick</h2>
+    <h2>Onclick</h2>
       <p>Change on individual button click</p>
-      <img src="images/html-5.png" id="img_click" alt="">
+      <img src={html5} id="img_click" alt="" />
       <div className="btn_change">
-        <button onClick="imgChange('./images/html-5.png')">HTML</button>
+        {/* <button onClick="imgChange('./images/html-5.png')">HTML</button>
         <button onClick="imgChange('./images/css-3.png')">CSS</button>
         <button onClick="imgChange('./images/js.png')">JavaScript</button>
-        <button onClick="imgChange('./images/react.png')">React</button>
-      </div> */}
+        <button onClick="imgChange('./images/react.png')">React</button> */}
+      </div>
 
-      {/* <p>Change randomly on image click</p>
-      <img src="images/heads.png" id="img_random" alt="">
+      <p>Change randomly on image click</p>
+      <img src={heads} id="img_random" alt="" />
       <div className="btn_change">
-        <button onClick="randomImg()">Flip</button>
-      </div> */}
+        {/* <button onClick="randomImg()">Flip</button> */}
+      </div>
 
     <h2>Fetch</h2>
       <p>Fetch uses promises. It uses async/await.</p>
       <p>AJAX uses callbacks.</p>
       
 
-    {/* <h2>Map</h2>
-    <div className="code_box">
-      <p>const array = [1, 5, 6, 4, 23]</p>
-      <p>const newArray = array.map((number)) => {</p>
-      <p className="indent">return number * 2;</p>
-      <p>}</p>
-      <p>console.log(array); <span>[1, 5, 6, 4, 23]</span></p>
-      <p>console.log(newArray); <span>[2, 10, 12, 8, 46]</span></p>
-    </div>
+   <h2>Map</h2>
+    <img src={map} alt="" />
 
     <h2>Filter</h2>
-    <div className="code_box">
-      <p>const array = [1, 5, 6, 4, 23]</p>
-      <p>const newArray = array.filter((number)) => {</p>
-      <p className="indent">return number < 5;</p>
-      <p>}</p>
-      <p>console.log(array); <span>[1, 5, 6, 4, 23]</span></p>
-      <p>console.log(newArray); <span>[1, 4]</span></p>
-    </div> */}
+      <img src={filter} alt="" />
 
     <h2>Node</h2>
     <p>Node.js allows you to run JavaScript on the server.</p>

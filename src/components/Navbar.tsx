@@ -16,7 +16,7 @@ export default function Navbar() {
                 <Link to="/react">React</Link>
                 <Link to="/git">Github</Link>
             </div>
-            <img src={sun} alt="sun" id="bgChange" />
+            {/* <img src={sun} alt="sun" id="bgChange" /> */}
             {/* onClick={bgChange}  */}
 
             <button className="hamburger is-active">
