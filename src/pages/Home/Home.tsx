@@ -2,6 +2,9 @@ import Table from './Table';
 import Form from './Form';
 import Center from './Center';
 // images
+import img1 from "../../images/shortcut_html.png";
+import img2 from "../../images/shortcut_p.png";
+import img3 from "../../images/shortcut_class.png";
 import flex from "../../images/flex.png";
 import grid from "../../images/grid.png";
 
@@ -40,20 +43,20 @@ export default function Home() {
       <h2>Shortcuts</h2>
       <h3>Auto-populate html structure</h3>
       <p>Type <b>!</b> then press <b>tab</b> will display like below.</p>
-      <img src="images/shortcut_html.png" alt="" className="img1" />
+      <img src={img1} alt="" className="img1" />
 
       <h3>Create multiple elements</h3>
       <p>
         Type <b>p*3</b> then press <b>tab</b> will create 3 rows of paragraphs.
       </p>
-      <img src="images/shortcut_p.png" alt="" className="img2" />
+      <img src={img2} alt="" className="img2" />
 
       <h3>Create class and id for element</h3>
       <p>
         Type <b>.example#example</b> then press <b>tab</b> will create a div
         with class and id.
       </p>
-      <img src="images/shortcut_class.png" alt="" className="img3" />
+      <img src={img3} alt="" className="img3" />
 
       <h2>Flex</h2>
       <p>

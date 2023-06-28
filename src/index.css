@@ -125,14 +125,14 @@ li {
 .icon {
   height: 1.5rem;
 }
-.img1 {
+.info .img1 {
   height: 13rem;
 }
-.img2 {
-  height: 5rem;
+.info .img2 {
+  height: 6rem;
 }
-.img3 {
-  height: 3.5rem;
+.info .img3 {
+  height: 4rem;
 }
 #bgChange {
   height: 3rem;
