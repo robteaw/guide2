@@ -282,6 +282,18 @@ button:hover {
 #img_random {
   height: 5.5rem;
 }
+.info .loopImg {
+  height: 4rem;
+}
+.info .loopImg2 {
+  height: 13rem;
+}
+.info .loopImg3 {
+  height: 12rem;
+}
+.info .loopImg4 {
+  height: 12rem;
+}
 
 /* Success Page */
 .success_page {
