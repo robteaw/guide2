@@ -1,12 +1,9 @@
 import Table from './Table';
 import Form from './Form';
-import Center from './Center';
 // images
 import img1 from "../../images/shortcut_html.png";
 import img2 from "../../images/shortcut_p.png";
 import img3 from "../../images/shortcut_class.png";
-import flex from "../../images/flex.png";
-import grid from "../../images/grid.png";
 
 export default function Home() {
   return (
@@ -57,22 +54,6 @@ export default function Home() {
         with class and id.
       </p>
       <img src={img3} alt="" className="img3" />
-
-      <h2>Flex</h2>
-      <p>
-        Flex is designed for one-dimensional layout. It will display the
-        contents in a row.
-      </p>
-      <img src={flex} alt="" />
-
-      <h2>Grid</h2>
-      <p>
-        Grid is designed for two-dimensional layout. It will display the
-        contents based on how the columns and rows are divided.
-      </p>
-      <img src={grid} alt="" />
-
-      <Center />
       
       <script src="main.js"></script>
       </div>
