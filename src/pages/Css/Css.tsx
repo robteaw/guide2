@@ -33,22 +33,24 @@ export default function Css() {
           <img src={css} alt="css" />
         </div>
 
-        <h2>Responsive Design</h2>
-        <h3>Flex</h3>
-        <p>
-          Flex is designed for one-dimensional layout. It will display the
-          contents in a row.
-        </p>
-        <img src={flex} alt="" />
+        <div className="response-info">
+          <h2>Responsive Design</h2>
+          <h3>Flex</h3>
+          <p>
+            Flex is designed for one-dimensional layout. It will display the
+            contents in a row.
+          </p>
+          <img src={flex} alt="" />
 
-        <h3>Grid</h3>
-        <p>
-          Grid is designed for two-dimensional layout. It will display the
-          contents based on how the columns and rows are divided.
-        </p>
-        <img src={grid} alt="" />
+          <h3>Grid</h3>
+          <p>
+            Grid is designed for two-dimensional layout. It will display the
+            contents based on how the columns and rows are divided.
+          </p>
+          <img src={grid} alt="" />
 
-        <Center />
+          <Center />
+        </div>
       </div>
 
       <script src="main.js"></script>

@@ -117,7 +117,7 @@ export default function Javascript() {
             Do a task once and then keep doing it until a specified condition is
             no longer met.
           </p>
-          <img className="loopImg4" src={do_while} alt="" />
+          <img src={do_while} alt="" />
         </div>
 
         <h2>Onclick</h2>
@@ -136,18 +136,20 @@ export default function Javascript() {
           {/* <button onClick="randomImg()">Flip</button> */}
         </div>
 
-        <h2>Fetch</h2>
-        <p>Fetch uses promises. It uses async/await.</p>
-        <p>AJAX uses callbacks.</p>
+        <div className="more-info">
+          <h2>Fetch</h2>
+          <p>Fetch uses promises. It uses async/await.</p>
+          <p>AJAX uses callbacks.</p>
 
-        <h2>Map</h2>
-        <img src={map} alt="" />
+          <h2>Map</h2>
+          <img src={map} alt="" />
 
-        <h2>Filter</h2>
-        <img src={filter} alt="" />
+          <h2>Filter</h2>
+          <img src={filter} alt="" />
 
-        <h2>Node</h2>
-        <p>Node.js allows you to run JavaScript on the server.</p>
+          <h2>Node</h2>
+          <p>Node.js allows you to run JavaScript on the server.</p>
+        </div>
 
         <script src="main.js"></script>
       </div>
