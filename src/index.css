@@ -275,7 +275,7 @@ button:hover {
 
 /* Css Page */
 .info img {
-  height: 8rem;
+  /* height: 8rem; */
 }
 .box-info img {
   margin-right: 1.5rem;
@@ -291,17 +291,35 @@ button:hover {
 #img_random {
   height: 5.5rem;
 }
-.info .loopImg {
+.function-info img:nth-child(1) {
   height: 4rem;
 }
-.info .loopImg2 {
-  height: 13rem;
+.function-info img:nth-child(2) {
+  height: 6rem;
 }
-.info .loopImg3 {
-  height: 12rem;
+.function-info img:nth-child(3) {
+  height: 4rem;
 }
-.info .loopImg4 {
-  height: 12rem;
+.function-info img:nth-child(4) {
+  height: 10rem;
+}
+.function-info img:nth-child(5) {
+  height: 10rem;
+}
+.function-info img:nth-child(6) {
+  height: 4rem;
+}
+.loop-info img:nth-child(1) {
+  height: 4rem;
+}
+.loop-info img:nth-child(2) {
+  height: 8rem;
+}
+.loop-info img:nth-child(3) {
+  height: 8rem;
+}
+.loop-info img:nth-child(4) {
+  height: 3rem;
 }
 
 /* Success Page */
