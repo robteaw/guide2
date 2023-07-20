@@ -1,4 +1,4 @@
-import Center from './Center';
+import Center from "./Center";
 // images
 import box from "../../images/box_model.png";
 import css from "../../images/code_css.png";
@@ -8,7 +8,7 @@ import grid from "../../images/grid.png";
 export default function Css() {
   return (
     <>
-    <div className="info">
+      <div className="info">
         <h1>CSS</h1>
         <p>Selector - selects all HTML elements</p>
         <ul>
@@ -17,7 +17,10 @@ export default function Css() {
 
         <h2>Setting up CSS</h2>
         <h3>Box Model</h3>
-        <p>The box model is a box that wraps around each HTML elment. Starting from outer layer to inner, it includes:</p>
+        <p>
+          The box model is a box that wraps around each HTML elment. Starting
+          from outer layer to inner, it includes:
+        </p>
         <ul>
           <li>Margin</li>
           <li>Border</li>
@@ -32,23 +35,23 @@ export default function Css() {
 
         <h2>Responsive Design</h2>
         <h3>Flex</h3>
-          <p>
-            Flex is designed for one-dimensional layout. It will display the
-            contents in a row.
-          </p>
-          <img src={flex} alt="" />
+        <p>
+          Flex is designed for one-dimensional layout. It will display the
+          contents in a row.
+        </p>
+        <img src={flex} alt="" />
 
         <h3>Grid</h3>
-          <p>
-            Grid is designed for two-dimensional layout. It will display the
-            contents based on how the columns and rows are divided.
-          </p>
-          <img src={grid} alt="" />
+        <p>
+          Grid is designed for two-dimensional layout. It will display the
+          contents based on how the columns and rows are divided.
+        </p>
+        <img src={grid} alt="" />
 
-          <Center />
-    </div>
+        <Center />
+      </div>
 
-    <script src="main.js"></script>
+      <script src="main.js"></script>
     </>
-  )
+  );
 }
