@@ -1,4 +1,5 @@
 import Center from "./Center";
+import Sass from "./Sass";
 // images
 import box from "../../images/box_model.png";
 import css from "../../images/code_css.png";
@@ -50,6 +51,8 @@ export default function Css() {
           <img src={grid} alt="" />
 
           <Center />
+
+          <Sass />
         </div>
       </div>
 

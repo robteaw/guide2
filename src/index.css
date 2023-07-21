@@ -17,6 +17,9 @@
   padding: 0;
   font-family: "Fira sans", sans-serif;
 }
+body {
+  margin: 0 2.5rem;
+}
 h1 {
   margin: 2rem 0;
 }
@@ -298,6 +301,23 @@ button:hover {
 }
 .codeImg img:nth-of-type(3n) {
   height: 9rem;
+}
+
+/* SASS */
+.sass-info img:nth-of-type(2n) {
+  height: 8rem;
+}
+.sass-info img:nth-of-type(3n) {
+  height: 4rem;
+}
+.sass-info img:nth-of-type(4n) {
+  height: 3.5rem;
+}
+.sass-info img:nth-of-type(5n) {
+  height: 16rem;
+}
+.sass-info img:nth-of-type(6n) {
+  height: 10rem;
 }
 
 /* JavaScript Page */
