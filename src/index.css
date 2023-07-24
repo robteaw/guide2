@@ -380,10 +380,10 @@ button:hover {
 }
 
 @media (max-width: 750px) {
-  .img1 {
+  .info .img1 {
     height: 10rem;
   }
-  .img4 {
+  .info .img4 {
     height: 16rem;
   }
   form {

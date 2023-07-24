@@ -1,3 +1,4 @@
+import Typescript from "./Typescript";
 // images
 import func from "../../images/function.png";
 import func2 from "../../images/function2.png";
@@ -150,6 +151,8 @@ export default function Javascript() {
           <h2>Node</h2>
           <p>Node.js allows you to run JavaScript on the server.</p>
         </div>
+
+        <Typescript />
 
         <script src="main.js"></script>
       </div>

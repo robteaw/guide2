@@ -1,5 +1,6 @@
 import Center from "./Center";
 import Sass from "./Sass";
+import Less from "./Less";
 // images
 import box from "../../images/box_model.png";
 import css from "../../images/code_css.png";
@@ -53,6 +54,8 @@ export default function Css() {
           <Center />
 
           <Sass />
+
+          <Less />
         </div>
       </div>
 
