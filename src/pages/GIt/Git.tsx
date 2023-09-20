@@ -31,6 +31,12 @@ export default function Git() {
             <li>git status</li>
         </ul>
 
+        <h3>Divergent branch fix</h3>
+        <ul>
+        <li>git pull origin main --rebase</li>
+        {/* https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci */}
+        </ul>
+
         <h1>Terminal</h1>
         <h3>List all files in directory</h3>
         <p>ls</p>
@@ -46,6 +52,7 @@ export default function Git() {
 
         <h3>Open file</h3>
         <p>code .</p>
+    
     </div>
 
     <script src="main.js"></script>
