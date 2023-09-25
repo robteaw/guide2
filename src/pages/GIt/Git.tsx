@@ -17,7 +17,7 @@ export default function Git() {
             <li>press "I" then type something on the first line for the title and then type something else on the third line for the description</li>
             <li>press "esc" then type ":wq" to exit</li>
             <li>git push</li>
-            <li>credit: https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a</li>
+            <span>credit: <a href="https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a">Link</a></span>
         </ul>
 
         <h3>How to pull from Github</h3>
@@ -69,3 +69,6 @@ export default function Git() {
     </>
   )
 }
+
+
+// test commit
