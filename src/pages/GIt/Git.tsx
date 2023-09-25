@@ -10,6 +10,16 @@ export default function Git() {
             <li>git push</li>
         </ul>
 
+        <h3>How to commit with a title and description</h3>
+        <ul>
+            <li>git add .</li>
+            <li>git commit</li>
+            <li>press "I" then type something on the first line for the title and then type something else on the third line for the description</li>
+            <li>press "esc" then type ":wq" to exit</li>
+            <li>git push</li>
+            <li>credit: https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a</li>
+        </ul>
+
         <h3>How to pull from Github</h3>
         <ul>
             <li>git pull</li>
