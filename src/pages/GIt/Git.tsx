@@ -63,7 +63,16 @@ export default function Git() {
 
         <h3>Alternative way to create branch</h3>
         <li>press "View then "Command Palette</li>
-        <li></li>
+        <li>press "Git: Checkout to" then type a name for the branch</li>
+        <li>
+          press on the publish button near the new branch name at the bottom
+          left of vs code
+        </li>
+        <li>push commit to github</li>
+        <li>go to github in pull request</li>
+        <li>press "compare & pull request"</li>
+        <li>fill out the form and press "create pull request"</li>
+        <li>press "merge pull request"</li>
 
         <h3>Delete a branch</h3>
         <li>git branch -D nameOfBranch</li>
