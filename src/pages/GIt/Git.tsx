@@ -59,15 +59,21 @@ export default function Git() {
           <li>git status</li>
           <li>git commit</li>
           <li>To switch to main: git checkout main</li>
-          <li>To delete branch: git branch -D nameOfBranch</li>
-          <li>Shortcut create branch: git checkout -b nameOfBranch</li>
         </ul>
+
+        <h3>Alternative way to create branch</h3>
+        <li>press "View then "Command Palette</li>
+        <li></li>
+
+        <h3>Delete a branch</h3>
+        <li>git branch -D nameOfBranch</li>
+
+        <h3>Shortcut create branch</h3>
+        <li>git checkout -b nameOfBranch</li>
 
         <h3>Merge Branches</h3>
         <li>git checkout main</li>
         <li>git merge nameOfBranch</li>
-        <li></li>
-        <li></li>
 
         <h3>Divergent branch fix</h3>
         <ul>
