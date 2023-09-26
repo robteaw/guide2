@@ -1,50 +1,78 @@
 export default function Git() {
   return (
     <>
-     <div className="info">
+      <div className="info">
         <h1>Github</h1>
-        <h3>How to commit and push to Github</h3>
+        <h3>Commit and push to Github</h3>
         <ul>
-            <li>git add --all</li>
-            <li>git commit -m "message"</li>
-            <li>git push</li>
+          <li>git add --all</li>
+          <li>git commit -m "message"</li>
+          <li>git push</li>
         </ul>
 
-        <h3>How to commit with a title and description</h3>
+        <h3>Commit with a title and description</h3>
         <ul>
-            <li>git add .</li>
-            <li>git commit</li>
-            <li>press "I" then type something on the first line for the title and then type something else on the third line for the description</li>
-            <li>press "esc" then type ":wq" to exit</li>
-            <li>git push</li>
-            <span>credit: <a href="https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a">Link</a></span>
+          <li>git add .</li>
+          <li>git commit</li>
+          <li>
+            press "I" then type something on the first line for the title and
+            then type something else on the third line for the description
+          </li>
+          <li>press "esc" then type ":wq" to exit</li>
+          <li>git push</li>
+          <span>
+            credit:{" "}
+            <a href="https://haydar-ai.medium.com/learning-how-to-git-creating-a-longer-commit-message-16ca32746c3a">
+              Link
+            </a>
+          </span>
         </ul>
 
-        <h3>How to pull from Github</h3>
+        <h3>Pull from Github</h3>
         <ul>
-            <li>git pull</li>
+          <li>git pull</li>
         </ul>
 
-        <h3>How to pull and push at the same time</h3>
+        <h3>Pull and push at the same time</h3>
         <ul>
-            <li>git pull --rebase</li>
-            <li>git push</li>
+          <li>git pull --rebase</li>
+          <li>git push</li>
         </ul>
 
-        <h3>How to see all commits</h3>
+        <h3>See all commits</h3>
         <ul>
-            <li>git log</li>
+          <li>git log</li>
         </ul>
 
-        <h3>How to see what has changed and what hasn't</h3>
+        <h3>See what has changed and what hasn't</h3>
         <ul>
-            <li>git status</li>
+          <li>git status</li>
         </ul>
+
+        <h3>Create a branch to commit separate from the main branch</h3>
+        <ul>
+          <li>git branch nameOfBranch</li>
+          <li>git branch -a</li>
+          <li>git checkout nameOfBranch</li>
+          <li>git branch -a</li>
+          <li>git add .</li>
+          <li>git status</li>
+          <li>git commit</li>
+          <li>To switch to main: git checkout main</li>
+          <li>To delete branch: git branch -D nameOfBranch</li>
+          <li>Shortcut create branch: git checkout -b nameOfBranch</li>
+        </ul>
+
+        <h3>Merge Branches</h3>
+        <li>git checkout main</li>
+        <li>git merge nameOfBranch</li>
+        <li></li>
+        <li></li>
 
         <h3>Divergent branch fix</h3>
         <ul>
-        <li>git pull origin main --rebase</li>
-        {/* https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci */}
+          <li>git pull origin main --rebase</li>
+          {/* https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci */}
         </ul>
 
         <h1>Terminal</h1>
@@ -62,13 +90,11 @@ export default function Git() {
 
         <h3>Open file</h3>
         <p>code .</p>
-    
-    </div>
+      </div>
 
-    <script src="main.js"></script>
+      <script src="main.js"></script>
     </>
-  )
+  );
 }
-
 
 // test commit
