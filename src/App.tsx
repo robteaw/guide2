@@ -10,6 +10,7 @@ import Css from './pages/Css/Css';
 import Javascript from './pages/Javascript/Javascript';
 import React1 from './pages/React/React1';
 import Git from './pages/GIt/Git';
+import Terminal from './pages/Terminal/Terminal';
 import Error from './pages/Error';
 import Navbar from './components/Navbar';
 
@@ -23,7 +24,7 @@ export default function App() {
         <Route path="/javascript" element={<Javascript />} />
         <Route path="/react" element={<React1 />} />
         <Route path="/git" element={<Git />} />
-        
+        <Route path="/terminal" element={<Terminal />} />
         <Route path="*" element={<Error />} />
       </Routes>
     </Router>
