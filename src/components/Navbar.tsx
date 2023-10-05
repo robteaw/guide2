@@ -15,6 +15,7 @@ export default function Navbar() {
                 <Link to="/javascript">JavaScript</Link>
                 <Link to="/react">React</Link>
                 <Link to="/git">Github</Link>
+                <Link to="/terminal">Terminal</Link>
             </div>
             {/* <img src={sun} alt="sun" id="bgChange" /> */}
             {/* onClick={bgChange}  */}
