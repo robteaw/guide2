@@ -269,8 +269,6 @@ button {
 }
 button:hover {
   color: var(--btnColor);
-  background-color: var(--btnHover);
-  border: 2px solid var(--btnColor);
 }
 .btn_change {
   margin-bottom: 2rem;
