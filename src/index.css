@@ -323,18 +323,18 @@ button:hover {
 
 /* Mobile view */
 @media (min-width: 850px) {
-  .hamburger {
-    display: none;
-  }
   .menu {
     display: block;
+  }
+  .menu-icon {
+    display: none;
   }
   #bgChange {
     display: block;
   }
 }
 
-@media (max-width: 750px) {
+@media (max-width: 850px) {
   .menu {
     display: flex;
     flex-direction: column;
@@ -355,13 +355,13 @@ button:hover {
     border: 0;
   }
   .menu-icon {
+    font-size: 1.8rem;
     display: block;
     position: absolute;
     margin-top: 0.5rem;
     top: 0;
     right: 0;
     transform: translate(-100%, 60%);
-    font-size: 1.8rem;
     cursor: pointer;
   }
   .info .img1 {
